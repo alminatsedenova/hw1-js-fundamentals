@@ -1,3 +1,5 @@
+//name: Almina Tsedenova
+//HW1
 //part 1
 function sum(arr) {
     let sum = 0;
