@@ -15,7 +15,7 @@ function average (arr){
     for (let i = 0; i <arr.length;i++){
         sum+=arr[i];
     }
-    console.log(sum/arr.length);
+    console.log(Math.round(sum/arr.length));
 }
 
 function min (arr){
