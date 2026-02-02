@@ -56,3 +56,18 @@ function countVowels(str){
     return count;
 }
 
+//part 3
+const student = {
+    name :"Almina Tsedenova",
+    age: 23,
+    grades: [85,90,78],
+
+    getAverage:function(){
+        const sum = this.grades.reduce((acc,g)=> acc+g,0);
+        return Math.round(sum/this.grades.legnth);
+    },
+    isHonorRoll: function(){
+    return this.getAverage()>85;
+    }
+
+}
